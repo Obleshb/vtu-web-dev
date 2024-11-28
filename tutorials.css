@@ -1,0 +1,21 @@
+header{
+    background-color: black;
+    height: 200vh;
+    background-size: cover;
+    background-position: right;
+    min-height: 300px;
+}
+.t1 th{
+    color: white;
+}
+.t1{
+    color: white;
+    position: relative;
+    top: 0%;
+    left: 5%;
+}
+table{
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 10px;
+}

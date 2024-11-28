@@ -1,0 +1,46 @@
+*{
+    font-family: century;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(civil.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+header h1{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+header h3{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.button{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    border: 2px solid white;
+    padding: 15px 30px ;
+    color: white;
+    transition: 0.8 ease;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.button a:hover{
+    color: brown;
+    background-color: white;
+}

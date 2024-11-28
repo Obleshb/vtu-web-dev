@@ -1,0 +1,35 @@
+
+header h1{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.about1{
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    color: black;
+    background: transparent;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    max-width: 900px;
+    font-size: larger;
+}
+ @keyframes example {
+    from {top: 0px;background-color: black;}
+    to {top: 200px;background-color: transparent;}
+  }
+
+  @keyframes example1 {
+    from {top: 0px;background-color: black;}
+    to {top: 425px;background-color: transparent;}
+  }
+
+  @keyframes example2 {
+    from {top: 0px;background-color: black;}
+    to {top: 700px;background-color: transparent;}
+  }

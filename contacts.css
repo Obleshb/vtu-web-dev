@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+}
+header{
+    color: white;
+    min-height: 100px;
+}
+header h2{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.sign{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    max-width: 100%;
+    border: 1px solid;
+    padding: 100px;
+    border-width: 100%;
+    font-size: larger;
+    text-align: left;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+
+.name{
+    background: transparent;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white; 
+}
+.btn1{
+    background: green;
+    border: 1px solid brown;
+    width: 100px;
+    height: 40px;
+}
+.signup{
+    width: 100%; 
+}
